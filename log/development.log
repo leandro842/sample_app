@@ -1293,3 +1293,6 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-21 11:51:23 -0300
+
+
+Started GET "/assets/application.css" for ::1 at 2015-08-24 12:40:42 -0300
