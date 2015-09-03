@@ -6610,3 +6610,23 @@ Migrating to AddPasswordDigestToUsers (20150831134651)
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE ("users"."email" = 'teste@teste.com' AND "users"."id" != 1) LIMIT 1
   [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'ldesouzarodrigues@yahoo.com.br' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'ldesouzarodrigues@yahoo.com.br' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Leandro"], ["email", "ldesouzarodrigues@yahoo.com.br"], ["password_digest", "$2a$10$g1/.6vEfGocfHsthUKxrp.FPjHP4LWfCaeNk1KfcdRnAvp/MX1BNW"], ["created_at", "2015-09-03 13:36:53.824293"], ["updated_at", "2015-09-03 13:36:53.824293"]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE ("users"."email" = 'ldesouzarodrigues@yahoo.com.br' AND "users"."id" != 2) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 2]]
+  [1m[35m (1.8ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'ldesouzarodrigues@yahoo.com.br' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
