@@ -18865,3 +18865,1695 @@ WHERE c.contype = 'f'
   AND t3.nspname = ANY (current_schemas(false))
 ORDER BY c.conname
 [0m
+
+
+Started GET "/" for ::1 at 2015-09-23 10:24:29 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (164.8ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (4.5ms)
+Completed 500 Internal Server Error in 1390ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/caiena/sample_app/app/models/user.rb:31: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    self remember_token = User.new_token
+                       ^):
+  app/models/user.rb:31: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/helpers/sessions_helper.rb:15:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__149134551054277690_70123766810340'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3655819102509473981_70123764531740'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (99.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (82.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (211.7ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 10:24:31 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/caiena/sample_app/app/models/user.rb:31: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    self remember_token = User.new_token
+                       ^):
+  app/models/user.rb:31: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/helpers/sessions_helper.rb:15:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__149134551054277690_70123766810340'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___3655819102509473981_70123764531740'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (76.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (158.1ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 10:33:28 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (69.2ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 175ms (Views: 173.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 10:33:28 -0300
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 10:33:28 -0300
+
+
+Started GET "/assets/custom.self-3f86af0e74136ccd424cf479cb3d22c342f77d1e197b7dda0454a9c43fc54132.css?body=1" for ::1 at 2015-09-23 10:33:28 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-23 10:33:28 -0300
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 10:33:28 -0300
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-09-23 10:33:28 -0300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-23 10:33:28 -0300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-23 10:33:28 -0300
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-09-23 10:33:28 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-23 10:33:28 -0300
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 10:33:28 -0300
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 10:33:28 -0300
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 10:33:28 -0300
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-23 10:33:28 -0300
+
+
+Started GET "/assets/rails-c094bc3a4bf50e5bb477109e5cb0d213af27ad75b481c4df249f50974dbeefe6.png" for ::1 at 2015-09-23 10:33:28 -0300
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/login" for ::1 at 2015-09-23 10:34:58 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (69.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 173ms (Views: 172.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 10:35:09 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DvObyluZNVmzPsCyIdWi7xwGPLOX4NSsetYhAb0J7wKJ698SvWuRLGEPxr2Dwc2BpwPTsSOEowWMOjXTvTt9uA==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 155ms (Views: 152.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/signup" for ::1 at 2015-09-23 10:35:30 -0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (19.9ms)
+  Rendered users/new.html.erb within layouts/application (37.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 151ms (Views: 141.5ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/users" for ::1 at 2015-09-23 10:35:49 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9FdAGaVwXDsZxg9DOGeafuGKQR4mIYMgUc7m4caFlrpzTwTBQ4L4Tsv3CUyac/UQWo+uHJJF9ImnIvIzxrcEAA==", "user"=>{"name"=>"Leandro de Souza Rodrigues", "email"=>"ldesouzarodrigues@yhaoo.com.br", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'ldesouzarodrigues@yhaoo.com.br' LIMIT 1
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Leandro de Souza Rodrigues"], ["email", "ldesouzarodrigues@yhaoo.com.br"], ["password_digest", "$2a$10$ICiW2ipvyticqYX/HuwevuCmk/1qHbwFhm5kGpJk7ZIIArmPLfIam"], ["created_at", "2015-09-23 13:35:49.143988"], ["updated_at", "2015-09-23 13:35:49.143988"]]
+  [1m[35m (15.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 137ms (ActiveRecord: 17.7ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 10:35:49 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 113ms (Views: 111.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 10:36:00 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 106ms (Views: 105.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 10:36:06 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 102ms (Views: 100.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 10:36:27 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (131.9ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (28.5ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 533ms (Views: 513.7ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 10:36:27 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 167ms (Views: 165.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 10:36:30 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 109ms (Views: 106.2ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/logout" for ::1 at 2015-09-23 10:36:37 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"K4cIsgmvt9VGmcScttDqUvHSDbpucwrblmrQx8foPl2sn0xq710ToJSowpMUxIU8StfiuNoXfXJghsQVx9qs5w=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 10:36:37 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (3.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 10:36:40 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (17.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 134ms (Views: 133.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 10:36:48 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"502RrRKPNHJzCqycr1aqw7MGienYySo63j7llyiZsoRgVdV19H2QB6E7qpMNQsWtCANm62ytXZMo0vFFKKsgPg==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 106ms (Views: 102.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 10:36:53 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uZpQyHqpXxamkSBPuS1vPki9X1DSsvj27ZR2CBwZKsI+ghQQnFv7Y3SgJkAbOQBQ87iwUmbWj18beGLaHCu4eA==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 100ms (Views: 99.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 10:37:05 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kRbR6IwN9HoFvWRMO8/HZDDPrLgTN7++t8jJC5PoWjMWDpUwav9QD9eMYkOZ26gKi8pDuqdTyBdBJN3Zk9rIiQ==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 103ms (Views: 101.7ms | ActiveRecord: 0.3ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started POST "/login" for ::1 at 2015-09-23 10:37:43 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"d9f63EWxRyiB1o8sKAHotmr5QnUD9XZvOOfyoLcd2Trwz74Eo0PjXVPniSOKFYfY0fytd7eRAcbOC+Zyty9LgA==", "session"=>{"email"=>"ldesouzarodrigues@yhaoo.com.br", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "ldesouzarodrigues@yhaoo.com.br"]]
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 0.3ms)
+
+NameError (undefined local variable or method `remember_user' for #<SessionsController:0x007fdb5329cee0>):
+  app/controllers/sessions_controller.rb:9:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (70.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (155.6ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 10:42:00 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"d9f63EWxRyiB1o8sKAHotmr5QnUD9XZvOOfyoLcd2Trwz74Eo0PjXVPniSOKFYfY0fytd7eRAcbOC+Zyty9LgA==", "session"=>{"email"=>"ldesouzarodrigues@yhaoo.com.br", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "ldesouzarodrigues@yhaoo.com.br"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "remember_digest" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["remember_digest", "$2a$10$b3auQl5j3Rnd2m/eH1Tr1u/xDFFq5qkqKwjmCQ8RWxC0XagszCQPi"], ["updated_at", "2015-09-23 13:42:01.085795"], ["id", 1]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 176ms (ActiveRecord: 3.3ms)
+
+NameError (undefined local variable or method `coookies' for #<SessionsController:0x007fdb540cba98>):
+  app/helpers/sessions_helper.rb:10:in `remember'
+  app/controllers/sessions_controller.rb:9:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (85.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (66.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (149.8ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 10:43:26 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"d9f63EWxRyiB1o8sKAHotmr5QnUD9XZvOOfyoLcd2Trwz74Eo0PjXVPniSOKFYfY0fytd7eRAcbOC+Zyty9LgA==", "session"=>{"email"=>"ldesouzarodrigues@yhaoo.com.br", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "ldesouzarodrigues@yhaoo.com.br"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "remember_digest" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["remember_digest", "$2a$10$8OIVZTA0OF.MgOrG2PE1L.FUHhQKhxa9KTDS6mqxiSvhHf6Er2Onm"], ["updated_at", "2015-09-23 13:43:26.318994"], ["id", 1]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 166ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 10:43:26 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 101ms (Views: 98.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/custom.self-3f86af0e74136ccd424cf479cb3d22c342f77d1e197b7dda0454a9c43fc54132.css?body=1" for ::1 at 2015-09-23 10:43:26 -0300
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 10:43:26 -0300
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 10:43:26 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-23 10:43:26 -0300
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-09-23 10:43:26 -0300
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 10:43:26 -0300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-23 10:43:26 -0300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-23 10:43:26 -0300
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-09-23 10:43:26 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-23 10:43:26 -0300
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 10:43:26 -0300
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 10:43:26 -0300
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 10:43:26 -0300
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-23 10:43:26 -0300
+
+
+Started DELETE "/logout" for ::1 at 2015-09-23 10:43:30 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"bcQKAYVkR1fcIfqNZKzs5hjkW8tFMxddCbdKea0K8J7q3E7ZY5bjIg4Q/ILGuIOIo+G0yfFXYPT/W16rrThiJA=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 10:43:30 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (74.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 188ms (Views: 187.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 10:43:32 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (77.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 179ms (Views: 178.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 10:43:39 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+HYvx0YPQXu7l8c9FfeSzOwKNg2kuGey4FI0MqzDNCl/bmsfoP3lDmmmwTK34/2iVw/ZDxDcEBsWviDgrPGmkw==", "session"=>{"email"=>"ldesouzarodrigues@yhaoo.com.br", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "ldesouzarodrigues@yhaoo.com.br"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "remember_digest" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["remember_digest", "$2a$10$V7L7qMLcUcx2MzkejVAcTO96GaICLL5e66apkDc5CcMshwY9gEwza"], ["updated_at", "2015-09-23 13:43:39.421331"], ["id", 1]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 156ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 10:43:39 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 107ms (Views: 105.4ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/logout" for ::1 at 2015-09-23 10:43:42 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"UtD7gxmve5Y9N0NB1TluCVdxlFtSOoFiRhbqCBFd9VjVyL9b/13f4+8GRU53LQFn7HR7WeZe9suw+v7aEW9n4g=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 10:43:42 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (83.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 185ms (Views: 184.0ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.5ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36m (107.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (76.9ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150827163225)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (19.8ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "name" character varying, "email" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150827163225"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+Migrating to AddIndexToUsersEmail (20150828183308)
+  [1m[35m (15.6ms)[0m  BEGIN
+  [1m[36m (16.4ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150828183308"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to AddPasswordDigestToUsers (20150831134651)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD "password_digest" character varying[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150831134651"]]
+  [1m[36m (15.5ms)[0m  [1mCOMMIT[0m
+Migrating to AddRememberDigestToUsers (20150922130416)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD "remember_digest" character varying[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150922130416"]]
+  [1m[36m (15.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.4ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/" for ::1 at 2015-09-23 10:58:27 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (121.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (21.0ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 400ms (Views: 387.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 10:58:30 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (17.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 171ms (Views: 169.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 10:58:35 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2LanW1NQQ7sOOzx56++DizqCpPpPe9ll33yPcVKxNDNfruODtaLnztwKOnZJ++zlgYdL+PsfrswpkJujUoOmiQ==", "session"=>{"email"=>"ldesouzarodrigues@yhaoo.com.br", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "ldesouzarodrigues@yhaoo.com.br"]]
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 105ms (Views: 102.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/signup" for ::1 at 2015-09-23 10:58:37 -0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (2.3ms)
+  Rendered users/new.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 111ms (Views: 103.1ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/users" for ::1 at 2015-09-23 10:58:51 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FgBCRVTssba0gd9hg/Ioqo5F1r4bKojrI6/JZzJ01hqRGAadsh4Vw2aw2W4h5kfENUA5vK9O/0LVQ921MkZEoA==", "user"=>{"name"=>"Leandro Rodrigues", "email"=>"ldesouzarodrigues@yhaoo.com.br", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'ldesouzarodrigues@yhaoo.com.br' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered shared/_error_messages.html.erb (0.6ms)
+  Rendered users/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 205ms (Views: 115.8ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/users" for ::1 at 2015-09-23 10:58:55 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+T5JMb8lbFooQ+987ZUvpB5+IgnUy/XUAP9VcnUEnIp+Jg3pWdfIL/py6XNPgUDKpXvNC2Cvgn32E0GgdTYOMA==", "user"=>{"name"=>"Leandro Rodrigues", "email"=>"ldesouzarodrigues@yhaoo.com.br", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'ldesouzarodrigues@yhaoo.com.br' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  Rendered users/new.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 178ms (Views: 100.4ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/users" for ::1 at 2015-09-23 10:59:08 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Yoc6jiIcqI7OiRvwREds2gCMJ4B2LhHz0jV4eBlmxoDln35WxO4M+xy4Hf/mUwO0u4nIgsJKZlok2WyqGVRUOg==", "user"=>{"name"=>"Leandro Rodrigues", "email"=>"ldesouzarodrigues@yhaoo.com.br", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'ldesouzarodrigues@yhaoo.com.br' LIMIT 1
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Leandro Rodrigues"], ["email", "ldesouzarodrigues@yhaoo.com.br"], ["password_digest", "$2a$10$dpPCHCSVNg.XrNHTmgbMU.3UdiuUfgo8J09yn92BffRNCpMJwetdK"], ["created_at", "2015-09-23 13:59:08.094563"], ["updated_at", "2015-09-23 13:59:08.094563"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 81ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 10:59:08 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 97ms (Views: 95.1ms | ActiveRecord: 0.4ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (3.0ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36m (3.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.2ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150827163225)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (4.5ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "name" character varying, "email" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150827163225"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to AddIndexToUsersEmail (20150828183308)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.9ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150828183308"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to AddPasswordDigestToUsers (20150831134651)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "password_digest" character varying[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150831134651"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to AddRememberDigestToUsers (20150922130416)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "remember_digest" character varying[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150922130416"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (3.5ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/" for ::1 at 2015-09-23 11:00:12 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (122.7ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (17.2ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 395ms (Views: 384.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/signup" for ::1 at 2015-09-23 11:00:14 -0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (2.1ms)
+  Rendered users/new.html.erb within layouts/application (29.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 197ms (Views: 187.2ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/users" for ::1 at 2015-09-23 11:00:28 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FTD6JkbeF01CvNLmni2JUaNHzKEehe/BrClJCI2q8FuSKL7+oCyzOJCN1Ok8OeY/GEIjo6rhmGhaxV3ajZhi4Q==", "user"=>{"name"=>"Leandro Rodrigues", "email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.7ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'ldesouzarodrigues@yahoo.com.br' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Leandro Rodrigues"], ["email", "ldesouzarodrigues@yahoo.com.br"], ["password_digest", "$2a$10$MWcb4XuzBNLi9qNlqsyQqO8wAMjfRkizAt570kIZLffpdCM0wKWYe"], ["created_at", "2015-09-23 14:00:28.582513"], ["updated_at", "2015-09-23 14:00:28.582513"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 96ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 11:00:28 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 109ms (Views: 106.1ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/logout" for ::1 at 2015-09-23 11:00:32 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Yt47PgRr0iOESWyiwni8OT8fS0e21yPC91R7GbQyZEvlxn/m4pl2VlZ4aq1gbNNXhBqkRQKzVGsBuG/LtAD28Q=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:00:32 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (9.2ms)
+Completed 500 Internal Server Error in 108ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (invalid hash):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", help_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/models/user.rb:37:in `new'
+  app/models/user.rb:37:in `authenticated?'
+  app/helpers/sessions_helper.rb:18:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__2812991516927606439_70251558788160'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3931579769146197648_70251521413700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (87.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (74.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (162.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:02:02 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (12.8ms)
+Completed 500 Internal Server Error in 112ms (ActiveRecord: 2.4ms)
+
+ActionView::Template::Error (invalid hash):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", help_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/models/user.rb:37:in `new'
+  app/models/user.rb:37:in `authenticated?'
+  app/helpers/sessions_helper.rb:18:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__2812991516927606439_70251558788160'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3931579769146197648_70251521413700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (87.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (66.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (151.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:02:18 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (13.6ms)
+Completed 500 Internal Server Error in 118ms (ActiveRecord: 1.7ms)
+
+ActionView::Template::Error (invalid hash):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", help_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/models/user.rb:37:in `new'
+  app/models/user.rb:37:in `authenticated?'
+  app/helpers/sessions_helper.rb:18:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__2812991516927606439_70251558788160'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3931579769146197648_70251521413700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (72.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (155.1ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:02:29 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (12.5ms)
+Completed 500 Internal Server Error in 118ms (ActiveRecord: 1.8ms)
+
+ActionView::Template::Error (invalid hash):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", help_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/models/user.rb:37:in `new'
+  app/models/user.rb:37:in `authenticated?'
+  app/helpers/sessions_helper.rb:18:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__2812991516927606439_70251558788160'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3931579769146197648_70251521413700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (83.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (66.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (150.2ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:07:10 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (13.3ms)
+Completed 500 Internal Server Error in 113ms (ActiveRecord: 2.2ms)
+
+ActionView::Template::Error (invalid hash):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", help_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/models/user.rb:37:in `new'
+  app/models/user.rb:37:in `authenticated?'
+  app/helpers/sessions_helper.rb:18:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__2812991516927606439_70251558788160'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3931579769146197648_70251521413700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (83.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (68.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (156.8ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:07:44 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (12.4ms)
+Completed 500 Internal Server Error in 116ms (ActiveRecord: 2.0ms)
+
+ActionView::Template::Error (invalid hash):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", help_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/models/user.rb:37:in `new'
+  app/models/user.rb:37:in `authenticated?'
+  app/helpers/sessions_helper.rb:18:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__2812991516927606439_70251558788160'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3931579769146197648_70251521413700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (67.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (149.1ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:08:03 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (11.9ms)
+Completed 500 Internal Server Error in 113ms (ActiveRecord: 1.7ms)
+
+ActionView::Template::Error (invalid hash):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", help_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/models/user.rb:37:in `new'
+  app/models/user.rb:37:in `authenticated?'
+  app/helpers/sessions_helper.rb:18:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__2812991516927606439_70251558788160'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3931579769146197648_70251521413700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (67.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (147.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:08:17 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.8ms)
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (invalid hash):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", help_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/models/user.rb:37:in `new'
+  app/models/user.rb:37:in `authenticated?'
+  app/helpers/sessions_helper.rb:18:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__2812991516927606439_70251558788160'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__3931579769146197648_70251521413700'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (66.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (144.6ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:08:40 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (124.6ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (33.9ms)
+Completed 500 Internal Server Error in 413ms (ActiveRecord: 3.3ms)
+
+ActionView::Template::Error (invalid hash):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", help_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/models/user.rb:37:in `new'
+  app/models/user.rb:37:in `authenticated?'
+  app/helpers/sessions_helper.rb:18:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb___1907079525335434354_70226410752640'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__71059873019740435_70226399003480'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (87.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (74.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (166.5ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:13:42 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (127.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (30.7ms)
+Completed 500 Internal Server Error in 406ms (ActiveRecord: 3.1ms)
+
+ActionView::Template::Error (invalid hash):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", help_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/models/user.rb:37:in `new'
+  app/models/user.rb:37:in `authenticated?'
+  app/helpers/sessions_helper.rb:18:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3511233492984737889_70233630198460'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__755347283476169555_70233629136900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (85.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (73.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (161.7ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:15:29 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+Completed 500 Internal Server Error in 95ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/caiena/sample_app/app/models/user.rb:44: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/models/user.rb:44: syntax error, unexpected end-of-input, expecting keyword_end
+  app/helpers/sessions_helper.rb:17:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3511233492984737889_70233630198460'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__755347283476169555_70233629136900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (82.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (68.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (153.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:15:46 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (135.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (7.5ms)
+Completed 500 Internal Server Error in 322ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/caiena/sample_app/app/models/user.rb:44: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/models/user.rb:44: syntax error, unexpected end-of-input, expecting keyword_end
+  app/helpers/sessions_helper.rb:17:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3860020387086083096_70137165755360'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__4590111549002525878_70137181016740'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (90.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (72.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (159.5ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:15:47 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+Completed 500 Internal Server Error in 99ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/caiena/sample_app/app/models/user.rb:44: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/models/user.rb:44: syntax error, unexpected end-of-input, expecting keyword_end
+  app/helpers/sessions_helper.rb:17:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3860020387086083096_70137165755360'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__4590111549002525878_70137181016740'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (65.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (148.2ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:16:03 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (23.1ms)
+Completed 500 Internal Server Error in 122ms (ActiveRecord: 3.5ms)
+
+ActionView::Template::Error (invalid hash):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", help_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/models/user.rb:37:in `new'
+  app/models/user.rb:37:in `authenticated?'
+  app/helpers/sessions_helper.rb:18:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__3860020387086083096_70137165755360'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb__4590111549002525878_70137181016740'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (71.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (150.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:25:22 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/Users/caiena/sample_app/app/helpers/sessions_helper.rb:41: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/helpers/sessions_helper.rb:41: syntax error, unexpected keyword_end, expecting end-of-input
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/static_pages_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (96.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (75.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (163.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:26:02 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (126.1ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (31.9ms)
+Completed 500 Internal Server Error in 387ms (ActiveRecord: 3.3ms)
+
+ActionView::Template::Error (invalid hash):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", help_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/models/user.rb:37:in `new'
+  app/models/user.rb:37:in `authenticated?'
+  app/helpers/sessions_helper.rb:18:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__2515392029728785604_70304233314480'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___4246924062705953128_70304211554900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (94.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (72.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (151.9ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:27:19 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+Completed 500 Internal Server Error in 97ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/caiena/sample_app/app/models/user.rb:31: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    self remember_token = User.new_token
+                       ^):
+  app/models/user.rb:31: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/helpers/sessions_helper.rb:17:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__2515392029728785604_70304233314480'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___4246924062705953128_70304211554900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (64.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (145.9ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:27:38 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (12.2ms)
+Completed 500 Internal Server Error in 109ms (ActiveRecord: 1.8ms)
+
+ActionView::Template::Error (invalid hash):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", help_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/models/user.rb:37:in `new'
+  app/models/user.rb:37:in `authenticated?'
+  app/helpers/sessions_helper.rb:18:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__2515392029728785604_70304233314480'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___4246924062705953128_70304211554900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (66.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (150.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:31:52 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (18.8ms)
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 1.7ms)
+
+ActionView::Template::Error (invalid hash):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", help_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/models/user.rb:37:in `new'
+  app/models/user.rb:37:in `authenticated?'
+  app/helpers/sessions_helper.rb:18:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__2515392029728785604_70304233314480'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___4246924062705953128_70304211554900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (82.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (68.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (149.1ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:36:00 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (13.9ms)
+Completed 500 Internal Server Error in 119ms (ActiveRecord: 2.6ms)
+
+ActionView::Template::Error (invalid hash):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7:         <li><%= link_to "Help", help_path %></li>
+     8:         <% if logged_in? %>
+     9:           <li><%= link_to "Users", '#' %></li>
+    10:           <li class="dropdown">
+    11:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/models/user.rb:37:in `new'
+  app/models/user.rb:37:in `authenticated?'
+  app/helpers/sessions_helper.rb:18:in `current_user'
+  app/helpers/sessions_helper.rb:26:in `logged_in?'
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__2515392029728785604_70304233314480'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___4246924062705953128_70304211554900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (69.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (155.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[36m (3.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.1ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150827163225)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (3.3ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "name" character varying, "email" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150827163225"]]
+  [1m[36m (15.7ms)[0m  [1mCOMMIT[0m
+Migrating to AddIndexToUsersEmail (20150828183308)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150828183308"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to AddPasswordDigestToUsers (20150831134651)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "password_digest" character varying[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150831134651"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Migrating to AddRememberDigestToUsers (20150922130416)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "remember_digest" character varying[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150922130416"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.6ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/" for ::1 at 2015-09-23 11:37:50 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (143.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (5.1ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 609ms (Views: 597.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:37:51 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 146ms (Views: 146.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 11:38:04 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (50.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 184ms (Views: 183.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2015-09-23 11:38:05 -0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (2.8ms)
+  Rendered users/new.html.erb within layouts/application (22.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 248ms (Views: 230.1ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/users" for ::1 at 2015-09-23 11:38:22 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/oqAv1tAtU/LLTLlOiN9zsB5G9L4pcHAOVGU188ei04xEOaNj7QkP6hi/rUExAP7itGfQYVouEbjrWHxQRBQhg==", "user"=>{"name"=>"Leandro Rodrigues", "email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'ldesouzarodrigues@yahoo.com.br' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Leandro Rodrigues"], ["email", "ldesouzarodrigues@yahoo.com.br"], ["password_digest", "$2a$10$MJppXG7wUTJycZKstbkyOeMZTDOas/JrbpKCWfz.t.6vpafRqtC2y"], ["created_at", "2015-09-23 14:38:22.374859"], ["updated_at", "2015-09-23 14:38:22.374859"]]
+  [1m[36m (15.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 132ms (ActiveRecord: 17.0ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 11:38:22 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 113ms (Views: 105.6ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/logout" for ::1 at 2015-09-23 11:38:26 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"GNbe/CMzkjxT9As3fCCItVsDo7VOzIX/ZHM1O4INIInXTLjO98cDTDC7x2dCx/aAEasnJjMB/Hm+j8AdDAP7QQ=="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:38:26 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 110ms (Views: 109.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 11:38:29 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 102ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 11:38:40 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZmlvHwA5MDTuNPABJwmaz8nbc2DlRFgqf3R8aVUS42Kp8wkt1M2hRI17PFEZ7uT6g3P385iJIayliIlP2xw4qg==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 182ms (Views: 107.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 11:38:52 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MSiJcx1VJgJf90UIzh66ga1xvr2Sh1JYYFquLHB4Tef+su9ByaG3cjy4iVjw+cS059k6Lu9KK966plsK/naWLw==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 183ms (Views: 108.8ms | ActiveRecord: 0.3ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+
+
+Started POST "/login" for ::1 at 2015-09-23 11:40:12 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DTiNTOU08aLnMFiFjNKrYwbtVD5/FKBeP6hI0qHxChfCout+McBg0oR/lNWyNdVWTEXQrQLZ2djlVL30L//R3w==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "remember_digest" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_digest", "$2a$10$1AMcMvZPb/6G9BalsRT4Bu6BunUIlu3Y6B.j0H53gFRX/uHVZdB2q"], ["updated_at", "2015-09-23 14:40:12.194527"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 153ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 11:40:12 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 104ms (Views: 101.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:40:23 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 109ms (Views: 107.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:40:37 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (139.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (27.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 426ms (Views: 412.5ms | ActiveRecord: 3.4ms)
+
+
+Started DELETE "/logout" for ::1 at 2015-09-23 11:40:42 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TeZtb07PlzdFeBkJTpYJy8cB4QCInC60hP4D1BLa+72CfAtdmjsGRyY31VlwcXf+jallk/VRVzJeAvbynNQgdQ=="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "remember_digest" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_digest", nil], ["updated_at", "2015-09-23 14:40:42.780553"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 11:40:42 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 162ms (Views: 161.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (3.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.2ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150827163225)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (3.9ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "name" character varying, "email" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150827163225"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to AddIndexToUsersEmail (20150828183308)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.9ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150828183308"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to AddPasswordDigestToUsers (20150831134651)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "password_digest" character varying[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150831134651"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to AddRememberDigestToUsers (20150922130416)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "remember_digest" character varying[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150922130416"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (NULL, 1)[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users"
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
