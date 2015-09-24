@@ -20692,3 +20692,1329 @@ Processing by StaticPagesController#home as HTML
   Rendered layouts/_footer.html.erb (0.2ms)
 Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.0ms)
   [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/" for ::1 at 2015-09-23 15:31:36 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (129.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (4.3ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 443ms (Views: 422.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2015-09-23 15:31:42 -0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (12.7ms)
+  Rendered users/new.html.erb within layouts/application (348.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 533ms (Views: 520.0ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 15:31:45 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (34.9ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `checkbox' for #<ActionView::Helpers::FormBuilder:0x007f9170113970>):
+    12:       <%= f.password_field :password, class: 'form-control' %>
+    13: 
+    14:       <%= f.label :remember_me, class: "checkbox inline" do %>
+    15:         <%= f.checkbox :remember_me %>
+    16:         <span>Remember-me on this computer</span>
+    17:       <% end %>
+    18: 
+  app/views/sessions/new.html.erb:15:in `block (2 levels) in _app_views_sessions_new_html_erb__1038805436619037127_70131305900800'
+  app/views/sessions/new.html.erb:14:in `block in _app_views_sessions_new_html_erb__1038805436619037127_70131305900800'
+  app/views/sessions/new.html.erb:6:in `_app_views_sessions_new_html_erb__1038805436619037127_70131305900800'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (89.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (89.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (205.1ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 15:31:45 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (25.4ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `checkbox' for #<ActionView::Helpers::FormBuilder:0x007f916f0e7d08>):
+    12:       <%= f.password_field :password, class: 'form-control' %>
+    13: 
+    14:       <%= f.label :remember_me, class: "checkbox inline" do %>
+    15:         <%= f.checkbox :remember_me %>
+    16:         <span>Remember-me on this computer</span>
+    17:       <% end %>
+    18: 
+  app/views/sessions/new.html.erb:15:in `block (2 levels) in _app_views_sessions_new_html_erb__1038805436619037127_70131305147140'
+  app/views/sessions/new.html.erb:14:in `block in _app_views_sessions_new_html_erb__1038805436619037127_70131305147140'
+  app/views/sessions/new.html.erb:6:in `_app_views_sessions_new_html_erb__1038805436619037127_70131305147140'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (66.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (148.1ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 15:32:41 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (45.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 146ms (Views: 145.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 15:34:12 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 100ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:34:13 -0300
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:34:13 -0300
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:34:13 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-23 15:34:13 -0300
+
+
+Started GET "/assets/custom.self-3f86af0e74136ccd424cf479cb3d22c342f77d1e197b7dda0454a9c43fc54132.css?body=1" for ::1 at 2015-09-23 15:34:13 -0300
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-09-23 15:34:13 -0300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-23 15:34:13 -0300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-23 15:34:13 -0300
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-09-23 15:34:13 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-23 15:34:13 -0300
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:34:13 -0300
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:34:13 -0300
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:34:13 -0300
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-23 15:34:13 -0300
+
+
+Started GET "/login" for ::1 at 2015-09-23 15:34:24 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 105ms (Views: 104.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-3f86af0e74136ccd424cf479cb3d22c342f77d1e197b7dda0454a9c43fc54132.css?body=1" for ::1 at 2015-09-23 15:34:24 -0300
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:34:24 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-23 15:34:24 -0300
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:34:24 -0300
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:34:24 -0300
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-09-23 15:34:24 -0300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-23 15:34:24 -0300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-23 15:34:24 -0300
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-09-23 15:34:24 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-23 15:34:24 -0300
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:34:24 -0300
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:34:24 -0300
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:34:24 -0300
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-23 15:34:24 -0300
+
+
+Started GET "/login" for ::1 at 2015-09-23 15:34:35 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 108ms (Views: 107.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:34:35 -0300
+
+
+Started GET "/assets/custom.self-3f86af0e74136ccd424cf479cb3d22c342f77d1e197b7dda0454a9c43fc54132.css?body=1" for ::1 at 2015-09-23 15:34:35 -0300
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:34:35 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-23 15:34:35 -0300
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:34:35 -0300
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-09-23 15:34:35 -0300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-23 15:34:35 -0300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-23 15:34:35 -0300
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-09-23 15:34:35 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-23 15:34:35 -0300
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:34:35 -0300
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:34:35 -0300
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:34:35 -0300
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-23 15:34:35 -0300
+
+
+Started GET "/login" for ::1 at 2015-09-23 15:39:56 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 2321ms (Views: 2319.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-9acd5fc7f8a9ca172162630ee55d29da950280dcf6db8784be6677b70f1fb85b.css?body=1" for ::1 at 2015-09-23 15:39:58 -0300
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:39:59 -0300
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:39:59 -0300
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:39:59 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-23 15:39:59 -0300
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-09-23 15:39:59 -0300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-23 15:39:59 -0300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-23 15:39:59 -0300
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-09-23 15:39:59 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-23 15:39:59 -0300
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:39:59 -0300
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:39:59 -0300
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:39:59 -0300
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-23 15:39:59 -0300
+
+
+Started GET "/login" for ::1 at 2015-09-23 15:40:31 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 2142ms (Views: 2141.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-7caf8b3bf16ccdc5d6e500cf182e78101f761ab278c4a6a677d76cfed37c515a.css?body=1" for ::1 at 2015-09-23 15:40:33 -0300
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:40:33 -0300
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:40:33 -0300
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:40:33 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-23 15:40:33 -0300
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-09-23 15:40:33 -0300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-23 15:40:33 -0300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-23 15:40:33 -0300
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-09-23 15:40:33 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-23 15:40:33 -0300
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:40:34 -0300
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:40:34 -0300
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:40:34 -0300
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-23 15:40:34 -0300
+
+
+Started GET "/login" for ::1 at 2015-09-23 15:43:51 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 2253ms (Views: 2252.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-a7c787d50045963e119342b0a1a2158021c99e44b260b0b50bdda1bed2467261.css?body=1" for ::1 at 2015-09-23 15:43:54 -0300
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:43:54 -0300
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:43:54 -0300
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:43:54 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-23 15:43:54 -0300
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-09-23 15:43:54 -0300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-23 15:43:54 -0300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-23 15:43:54 -0300
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-09-23 15:43:54 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-23 15:43:54 -0300
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:43:54 -0300
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:43:54 -0300
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:43:54 -0300
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-23 15:43:54 -0300
+
+
+Started POST "/login" for ::1 at 2015-09-23 15:52:04 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WcrdCRCF1P1WICocvTrgqqLVdGXtxTLBPN7ypFhLNByWULs7xHFFjTVv5kyD3Z6f6H3w9pAIS0fmIgeC1kXv1A==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 147ms (Views: 112.0ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 15:52:06 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U3U4dP0QlWN+04Oq7Cmy2Lat/8It4vCjuu5xh0DyHQic715GKeQEEx2cT/rSzszt/AV7UVAviSVgEoShzvzGwA==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 106ms (Views: 103.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 15:57:56 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vQdaw/HRcRfZ+kYMvRxg0USFWBAe/20nRb8h3UF/RXBynTzxJSXgZ7q1ilyD+x7kDi3cg2MyFKGfQ9T7z3GeuA==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 2.4ms)
+
+NameError (undefined local variable or method `remember_me' for #<SessionsController:0x007f91700d22e0>):
+  app/controllers/sessions_controller.rb:9:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (88.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (78.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.1@global/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (194.1ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 15:58:26 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vQdaw/HRcRfZ+kYMvRxg0USFWBAe/20nRb8h3UF/RXBynTzxJSXgZ7q1ilyD+x7kDi3cg2MyFKGfQ9T7z3GeuA==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 93ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 15:58:26 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 164ms (Views: 160.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/custom.self-a7c787d50045963e119342b0a1a2158021c99e44b260b0b50bdda1bed2467261.css?body=1" for ::1 at 2015-09-23 15:58:26 -0300
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:58:26 -0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-23 15:58:26 -0300
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:58:26 -0300
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 15:58:26 -0300
+
+
+Started GET "/assets/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for ::1 at 2015-09-23 15:58:26 -0300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-23 15:58:26 -0300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-23 15:58:26 -0300
+
+
+Started GET "/assets/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for ::1 at 2015-09-23 15:58:26 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-23 15:58:26 -0300
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:58:26 -0300
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:58:26 -0300
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-23 15:58:26 -0300
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2015-09-23 15:58:26 -0300
+
+
+Started GET "/" for ::1 at 2015-09-23 15:58:33 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 125ms (Views: 123.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 15:58:36 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 98ms (Views: 96.1ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/logout" for ::1 at 2015-09-23 15:58:43 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Zx3jmc89TxnuJKvrtzSrVk5N0YQCPcHc6VgK40M2Gpioh4WrG8neaY1rZ7uJ09VjBOVVF3/wuFozpP/FzTjBUA=="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 15:58:43 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 94ms (Views: 93.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 15:58:45 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 92ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 15:58:58 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D0Cy2GqBmIwt2mrUj43WsTN5/8qTS5+m+NBqjcY2K+nA2tTqvnUJ/E6VpoSxaqiEedF7We6G5iAiLJ+rSDjwIQ==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.ocm.br", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "ldesouzarodrigues@yahoo.ocm.br"]]
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 93ms (Views: 90.6ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 15:59:09 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"At9qE2zVaTTq0RrmrW58Iw03CHPdsnZMJtFKsE1XV+/NRQwhuCH4RIme1raTiQIWR5+M4KB/D8r8Lb+Ww1mMJw==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 79ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 15:59:09 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 125ms (Views: 123.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 15:59:48 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 112ms (Views: 111.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/logout" for ::1 at 2015-09-23 15:59:51 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"FKV5CZS94quKAKAG9m1EGTqAu9aknK9S+3YQ3Uoft63bPx87QElz2+lPbFbIijoscCg/RdlR1tQhiuX7xBFsZQ=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 15:59:51 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 106ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:04:00 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 100ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 16:04:02 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 114ms (Views: 113.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (19.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.3ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150827163225)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (4.2ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "name" character varying, "email" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150827163225"]]
+  [1m[36m (16.0ms)[0m  [1mCOMMIT[0m
+Migrating to AddIndexToUsersEmail (20150828183308)
+  [1m[35m (15.5ms)[0m  BEGIN
+  [1m[36m (16.5ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150828183308"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Migrating to AddPasswordDigestToUsers (20150831134651)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD "password_digest" character varying[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150831134651"]]
+  [1m[36m (15.5ms)[0m  [1mCOMMIT[0m
+Migrating to AddRememberDigestToUsers (20150922130416)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD "remember_digest" character varying[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150922130416"]]
+  [1m[36m (15.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.4ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/" for ::1 at 2015-09-23 16:04:41 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (129.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 607ms (Views: 585.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 16:04:44 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (27.1ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 184ms (Views: 183.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:05:00 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"btJATfm+g4J8wRi/sd0kpi3v73RnUsOlDixBkbAMJRWhSCZ/LUoS8h+O1O+POlqTZ0dr5xqfuiPU0LS3PgL+3Q==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 112ms (Views: 95.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/signup" for ::1 at 2015-09-23 16:05:04 -0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (2.9ms)
+  Rendered users/new.html.erb within layouts/application (13.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 161ms (Views: 152.7ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/users" for ::1 at 2015-09-23 16:05:23 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MIkvBiKZ+r3N8pogX7QBo2tNLZ0RP6O74v5zw3hLs13/E0k09m1rza69VnBhU3+WIeWpDmzy2j04Aobl9kVolQ==", "user"=>{"name"=>"Leandro", "email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'ldesouzarodrigues@yahoo.com.br' LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Leandro"], ["email", "ldesouzarodrigues@yahoo.com.br"], ["password_digest", "$2a$10$JkVj1lDs/vRhrry54KICC.z75eZ4PeiCKJIe/PoFIHYK3q/1OVe6y"], ["created_at", "2015-09-23 19:05:23.975851"], ["updated_at", "2015-09-23 19:05:23.975851"]]
+  [1m[35m (15.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 378ms (ActiveRecord: 16.9ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 16:05:23 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 124ms (Views: 121.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:05:37 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 102ms (Views: 101.3ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/logout" for ::1 at 2015-09-23 16:05:44 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"vtA668PXttJOstqOgIGNuik0+unADsY+R7Nw+Gl4PH5xSlzZFyMnoi39Ft6+ZvOPY5x+er3Dv7idT4Xe53bntg=="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:05:44 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 98ms (Views: 97.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 16:05:47 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 136ms (Views: 135.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:05:52 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UscTaA8atfAKKP1jdH0F/qeIsJB+v0qVcLTmai8ja7SdXXVa2+4kgGlnMTNKmnvL7SA0AwNyMxOqSBNMoS2wfA==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 77ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 16:05:53 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 107ms (Views: 105.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:06:00 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 108ms (Views: 106.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 16:06:03 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 105ms (Views: 103.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:06:29 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (10.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 115ms (Views: 112.8ms | ActiveRecord: 1.9ms)
+
+
+Started DELETE "/logout" for ::1 at 2015-09-23 16:06:33 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"AyjkCn/TzP3Apw9gV3R0ELRR+SkwRaNdqhlzRkEv4hXMsoI4qyddjaPowzBpkwol/vl9uk2I2ttw5YZgzyE53Q=="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:06:33 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 108ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/login" for ::1 at 2015-09-23 16:16:14 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 153ms (Views: 152.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:16:23 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"faSbMu+Z8GJUVL2bKprnWbemwUPROeh6eAyyYmEz8fKyPv0AO21hEjcbccsUfZls/Q5F0Kz0kfyi8EdE7z0qOg==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 199ms (Views: 110.9ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:16:30 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ck8kWcR1zWPw6jCxXQqDeCV17LEWF9uAwE88TVZHVRK91UJrEIFcE5Ol/OFj7f1Nb91oImvaogYas8lr2EmO2g==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 79ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 16:16:30 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 102ms (Views: 99.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:16:37 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 104ms (Views: 102.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:16:41 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 110ms (Views: 109.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:17:10 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 107ms (Views: 106.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 16:17:12 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 112ms (Views: 111.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:17:18 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"25N8hi7RujjhzMjdWDyrF9syQpUmwBYWpDoZbgkR9b2Q/CXCSpmr7wy4hEN03Vs/WKJDbBGqgbjlsLmXo9WGag==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 78ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 16:17:18 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 96ms (Views: 94.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:17:27 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 100ms (Views: 98.5ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/logout" for ::1 at 2015-09-23 16:17:30 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"L4+F9hwAmp04abHxg3yXyy+XDwnG4F960L9YrNKl5LFk4NyyeEiLStUd/W+vnWfjrAcO8PGKyNSRNfhVeGGXZg=="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:17:30 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 112ms (Views: 111.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:20:53 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 102ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:20:53 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 110ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2015-09-23 16:20:55 -0300
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.7ms)
+  Rendered users/new.html.erb within layouts/application (11.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 169ms (Views: 158.0ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/users" for ::1 at 2015-09-23 16:20:56 -0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QWqNTm9lPjdgZCPXSRi+VPfQcF1kUhgm7/wqWsqzjbUKBdQKCy0v4I0Qb0ll+U58dEBxpFM4j4iudoqjYHf+Yg==", "user"=>{"name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = '' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered shared/_error_messages.html.erb (4.2ms)
+  Rendered users/new.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 121ms (Views: 111.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 16:20:58 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 110ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:21:01 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MMToLbB5Wtor/4bcj5y4/nYZ3yUZ6woCJY42LG13jSV7q7Fp1DFLDcaLykKjfUjW9Yne3C6BnaxkBJbVx7P+8g==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 106ms (Views: 103.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:21:04 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2e537K3HfkMSuv03hrdJb97zSqdQ07hP2+BAGaxsrnySgS6oyY9vlP/OsamqVrlHXWNLXme5L+GaauDgBqjdqw==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 111ms (Views: 109.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:21:07 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"07l09SGnc/kSFPFbpZZrUr0n0r2U9NY5u7tZFdiY6mmY1i2xRe9iLv9gvcWJd5t6PrfTRKOeQZf6MfnsclyZvg==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 105ms (Views: 102.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:21:08 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"udu19GlipPQXNLBv6tVrFBBJayz4yvdeTxnw8Z2eYwvytOywDSq1I/pA/PHGNJs8k9lq1c+gYPAOk1AIN1oQ3A==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 104ms (Views: 102.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:21:10 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HbAV5yWx6ViF07FWVNA/4gqQokYt0EQZbiJJFBmO+mpW30yjQfn4j2in/ch4Mc/KiQCjvxq607cvqOnts0qJvQ==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 113ms (Views: 110.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:21:12 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"H2n45J8PNxq3ztE2Xl27YvjufTsY82ikokt62cI5ycVUBqGg+0cmzVq6nahyvEtKe358wi+Z/wrjwdogaP26Eg==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 121ms (Views: 119.3ms | ActiveRecord: 0.3ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Leandro"], ["email", "ldesouzarodrigues@yahoo.com.br"], ["created_at", "2015-09-23 19:35:40.845474"], ["updated_at", "2015-09-23 19:35:40.845474"]]
+PG::UniqueViolation: ERROR:  duplicate key value violates unique constraint "index_users_on_email"
+DETAIL:  Key (email)=(ldesouzarodrigues@yahoo.com.br) already exists.
+: INSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'ldesouzarodrigues@yahoo.com.br' LIMIT 1[0m
+
+
+Started GET "/" for ::1 at 2015-09-23 16:41:55 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (13.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 260ms (Views: 259.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-09-23 16:42:00 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 98ms (Views: 97.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:42:02 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AsYOI4iNNalZRF5VICSJvgqxLhaWOHDtNcbKsGieJyNJqVdn7MUkfrQwEssMxXmWiSEv76FS50N0TGpJwlpU9A==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 103ms (Views: 101.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:42:04 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"635zdEQxIaJIFpSBGu8ovl8caHqgQNhbhYmXcfA1pM2gESowIHkwdaVi2B82DtiW3Ixpg5cqT/XEAzeIWvHXGg==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 141ms (Views: 139.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:42:06 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BVwBiP09QODrwZ6bybb9OklDWj5OYf/okTNjHqdKDbJOM1jMmXVRNwa10gXlVw0SytNbx3kLaEbQucPnDY5+ZQ==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 102ms (Views: 99.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:42:07 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KKzKLmt/LrugMC27UKVdV5/w9v0TZu2H0T9OG36wHzZjw5NqDzc/bE1EYSV8RK1/HGD3BCQMeimQte7i1HRs4Q==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 115ms (Views: 113.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:45:00 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Qj0pHnQraN237YTIHx7JQX0mvoSQNraPfRWmmIZTi3wJUnBaEGN5ClqZyFYz/zlp/ra/fadcISE8nwZhLJf4qw==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 104ms (Views: 102.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:45:02 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AQ4gEpPxAupOpBc+RQX03kIzPGngBHvXgz4xWix7LAdKYXlW97kTPaPQW6Bp5AT2waM9kNdu7HnCtJGjhr9f0A==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 106ms (Views: 104.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:45:06 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tbh85QeuOs8NBWLczCxd3OH7WqG0MAqHJNxbZJHDMcr+1yWhY+YrGOBxLkLgza30YmtbWINanSllVvudOwdCHQ==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.ocm.br", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "ldesouzarodrigues@yahoo.ocm.br"]]
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 106ms (Views: 103.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login" for ::1 at 2015-09-23 16:45:17 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MsRUewkSoNQ416vnhMpw/y6ER/qJItDy3qL6iqogABt5qw0/bVqxA9Wj53moK4DXrRRGA75IR1yfKFpzAORzzA==", "session"=>{"email"=>"ldesouzarodrigues@yahoo.com.br", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "ldesouzarodrigues@yahoo.com.br"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 78ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 16:45:18 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 115ms (Views: 112.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:45:29 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 146ms (Views: 145.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:45:30 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 103ms (Views: 102.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for ::1 at 2015-09-23 16:45:33 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 104ms (Views: 102.6ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/logout" for ::1 at 2015-09-23 16:45:37 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"4aJ+ncT62ybrK65YN0N+Nf3+y2uBKDQpTkF6n+wgvNmqzSfZoLLK8QZf4sYboo4dfm7KkrZCo4cPy9pmRuTPDg=="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 16:45:37 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 148ms (Views: 147.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-24 09:16:58 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 155ms (Views: 153.8ms | ActiveRecord: 0.0ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[36m (3.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.2ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20150827163225)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (20.5ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "name" character varying, "email" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150827163225"]]
+  [1m[36m (15.0ms)[0m  [1mCOMMIT[0m
+Migrating to AddIndexToUsersEmail (20150828183308)
+  [1m[35m (15.8ms)[0m  BEGIN
+  [1m[36m (16.6ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150828183308"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Migrating to AddPasswordDigestToUsers (20150831134651)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD "password_digest" character varying[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150831134651"]]
+  [1m[36m (15.5ms)[0m  [1mCOMMIT[0m
+Migrating to AddRememberDigestToUsers (20150922130416)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "users" ADD "remember_digest" character varying[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150922130416"]]
+  [1m[36m (15.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (4.1ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
