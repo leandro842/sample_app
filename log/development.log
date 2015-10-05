@@ -25927,3 +25927,33 @@ Processing by UsersController#index as HTML
   Rendered layouts/_header.html.erb (0.9ms)
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 125ms (Views: 123.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-04 23:39:25 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (162.0ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered layouts/_header.html.erb (28.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 371ms (Views: 352.7ms | ActiveRecord: 3.6ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2015-10-04 23:39:28 -0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"CnA+J0sRF6x5ONK10O3Ssd+miQf5xIcL0XkbGX4KHgBXh2v25w2HK6z5184S3bT4TYg9sg5ZllIM5KDxu5wzpQ=="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-04 23:39:28 -0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (7.1ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 186ms (Views: 185.4ms | ActiveRecord: 0.0ms)
