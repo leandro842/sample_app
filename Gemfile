@@ -45,6 +45,8 @@ gem 'lunchy'
 
 gem 'awesome_print'
 
+gem 'jdbc-mysql',      '~> 5.1.28', :platform => :jruby
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
