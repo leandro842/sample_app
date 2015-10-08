@@ -14,6 +14,16 @@
 # Configure Using Gemfile
 # gem 'pg'
 #
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: demo_test_development
+  pool: 5
+  username: caiena
+  password: caiena
+  timeout: 5000
+
 development:
   adapter: postgresql
   encoding: unicode
